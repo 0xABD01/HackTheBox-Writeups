@@ -335,3 +335,6 @@ This box is a compact illustration of principles that scale to nearly every real
 3. **`sudo -l` should always be checked, and GTFOBins should always be consulted.** Custom privilege escalation exploits are rare; misconfigured `sudo` rules for common binaries are common.
 
 The fix, as with most findings of this class, is layered discipline: no credentials on open shares, strong hashing everywhere, parameterized queries, and least-privilege `sudo` configuration.
+
+
+
